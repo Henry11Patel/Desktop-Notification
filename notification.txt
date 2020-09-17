@@ -1,0 +1,11 @@
+import time
+from plyer import notification
+
+if __name__ == '__main__':
+    while True:
+        notification.notify(
+            title = "please drink water",
+            message = "It's very helpfull for helth. Is the storage volume of drinking water decreasing in your reservoir? Find out how dredging can cost-effectively solve your problems.",
+            timeout = 5,
+        )
+        time.sleep(15)
